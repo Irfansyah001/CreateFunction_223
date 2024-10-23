@@ -14,3 +14,6 @@ def temperature_funtion(value_temperature, unit_temperature):
     else:
         # Konversi dari Fahrenheit ke Celsius
         return (value_temperature - 32) * 5/9
+    
+# Panggil fungsi dan simpan hasilnya
+konvert_temperature = temperature_funtion(value_temperature, unit_temperature)
