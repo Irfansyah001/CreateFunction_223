@@ -6,3 +6,6 @@ import math
 
 # Lambda function untuk menghitung luas lingkaran
 luas_lingkaran = lambda r: math.pi * r ** 2
+
+# Input jari-jari dari pengguna
+radius = float(input("Masukkan jari-jari lingkaran: "))
