@@ -3,3 +3,6 @@ Input is the length from the center of the circle to the border (jari-jari lingk
 
 # Mengimpor library math
 import math
+
+# Lambda function untuk menghitung luas lingkaran
+luas_lingkaran = lambda r: math.pi * r ** 2
