@@ -17,3 +17,9 @@ def temperature_funtion(value_temperature, unit_temperature):
     
 # Panggil fungsi dan simpan hasilnya
 konvert_temperature = temperature_funtion(value_temperature, unit_temperature)
+
+# Cetak hasil konversi
+if unit_temperature == 'C':
+    print(f"{value_temperature}°C setara dengan {konvert_temperature}°F")
+else:
+    print(f"{value_temperature}°F setara dengan {konvert_temperature}°C")
